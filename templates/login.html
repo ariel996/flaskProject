@@ -10,7 +10,24 @@
     <title>Sign in</title>
 </head>
 <body>
-
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-title">Sign in</div>
+            <div class="card-body">
+                <form action="{{ url_for('login_post') }}" method="post">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="username" required placeholder="username">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" name="password" id="password" class="form-control" required placeholder="password">
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-primary" type="submit">Sign in</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 </body>
 </html>
