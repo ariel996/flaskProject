@@ -17,7 +17,7 @@ def login_post():
         'Content-type': 'application/json'
     }
     response = get(url, auth=(username, password), headers=headers)
-    output_json = response.json()
+    output_json = response.iter_content(chunk_size=128)
     if response.status_code == 200:
         return redirect(url_for('homepage', response=output_json))
     else:
