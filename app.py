@@ -23,7 +23,9 @@ def login_post():
     else:
         return redirect(url_for('login'))
 
-
+@app.route('/get-instance_node/{instance_name}')
+def get_instance_node(instance_name: str):
+    return 'ok';
 
 @app.route('/homepage')
 def homepage():
