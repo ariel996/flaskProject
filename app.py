@@ -1,39 +1,33 @@
+import json
+import os
+from json import JSONDecodeError
 import requests
-from flask import Flask, render_template, redirect, url_for, request
-from requests import get
+from flask import Flask, render_template, redirect, url_for, request, flash, jsonify
+from werkzeug.utils import secure_filename
 
 app = Flask(__name__)
 
+app.config["UPLOAD_FOLDER"] = "static/"
 
 @app.route('/')
 def login():  # put application's code here
-    payload = {}
-    headers = {
-        'Authorization': 'Basic c3ZjLWJsc20taG9zdGxlYXNlOjgjOUpmUyEyWVNqJnNxIVI='
-    }
-    url = 'https://blossom.nvidia.com/jenkins/api/v1/projects/instances/list/'
-    response = requests.request("GET", url, headers=headers, data=payload)
-    output_json = response.iter_content(chunk_size=128)
-    if response.status_code == 200:
-        return render_template('index.html', output_json=output_json)
-    else:
-        return 'unable to continue'
+    return render_template('index.html')
 
-@app.route('/login', methods=['POST'])
-def login_post():
-    payload = {}
-    headers = {
-        'Authorization': 'Basic c3ZjLWJsc20taG9zdGxlYXNlOjgjOUpmUyEyWVNqJnNxIVI='
-    }
-    url = 'https://blossom.nvidia.com/jenkins/api/v1/projects/instances/list/'
-    response = requests.request("GET", url, headers=headers, data=payload)
-    output_json = response.iter_content(chunk_size=128)
-    if response.status_code == 200:
-        return redirect(url_for('homepage', response=output_json))
-    else:
-        return redirect(url_for('login'))
 
-@app.route('/get-instance_node/{instance_name}')
+@app.route('/upload_file', methods=['GET', 'POST'])
+def upload_file():
+    if request.method == 'POST':
+        f = request.files['instance_name_file']
+        filename = secure_filename(f.filename)
+        f.save(app.config['UPLOAD_FOLDER'] + filename)
+        file = open(app.config['UPLOAD_FOLDER'] + filename, "r")
+        content = file.read()
+        result = content.split('\n')
+    return render_template('instance_name.html', result=result)
+
+
+
+@app.route('/get_instance_node/<string:instance_name>')
 def get_instance_node(instance_name: str):
     payload = {}
     headers = {
@@ -42,19 +36,16 @@ def get_instance_node(instance_name: str):
     url = "https://blossom.nvidia.com/" + instance_name + "/computer/api/json"
     response = requests.request("GET", url, headers=headers, data=payload)
     result = response.json()
-    context = {
-        'result': result,
-        'instance_name': instance_name,
-    }
-    return render_template('instance_node.html', context=context)
+    key = 'Swarm agent'
+    systL = "Linux"
+    key_system = "hudson.node_monitors.ArchitectureMonitor"
+    return render_template('instance_node.html', response=response, result=result, instance_name=instance_name, key=key, systL=systL, key_system=key_system)
+
 
 @app.route('/homepage')
 def homepage():
     return render_template('index.html')
 
-@app.route('/about')
-def about():
-    return 'about us'
 
 if __name__ == '__main__':
     app.run()

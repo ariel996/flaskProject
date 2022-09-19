@@ -1,0 +1,2200 @@
+{
+  "_class": "hudson.model.ComputerSet",
+  "busyExecutors": 4,
+  "computer": [
+    {
+      "_class": "hudson.model.Hudson$MasterComputer",
+      "actions": [
+        { }
+      ],
+      "assignedLabels": [
+        {
+          "name": "master"
+        }
+      ],
+      "description": "the Jenkins controller's built-in node",
+      "displayName": "Built-In Node",
+      "executors": [
+        { },
+        { }
+      ],
+      "icon": "computer.png",
+      "iconClassName": "icon-computer",
+      "idle": false,
+      "jnlpAgent": false,
+      "launchSupported": true,
+      "loadStatistics": {
+        "_class": "hudson.model.Label$1"
+      },
+      "manualLaunchAllowed": true,
+      "monitorData": {
+        "hudson.node_monitors.SwapSpaceMonitor": {
+          "_class": "hudson.node_monitors.SwapSpaceMonitor$MemoryUsage2",
+          "availablePhysicalMemory": 16244998144,
+          "availableSwapSpace": 0,
+          "totalPhysicalMemory": 269903790080,
+          "totalSwapSpace": 0
+        },
+        "hudson.node_monitors.TemporarySpaceMonitor": {
+          "_class": "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
+          "timestamp": 1663359157287,
+          "path": "/tmp",
+          "size": 3422004584448
+        },
+        "hudson.node_monitors.DiskSpaceMonitor": {
+          "_class": "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
+          "timestamp": 1663359157288,
+          "path": "/var/jenkins",
+          "size": 235425431552
+        },
+        "hudson.node_monitors.ArchitectureMonitor": "Linux (amd64)",
+        "hudson.node_monitors.ResponseTimeMonitor": {
+          "_class": "hudson.node_monitors.ResponseTimeMonitor$Data",
+          "timestamp": 1663359157287,
+          "average": 0
+        },
+        "hudson.node_monitors.ClockMonitor": {
+          "_class": "hudson.util.ClockDifference",
+          "diff": 0
+        }
+      },
+      "numExecutors": 2,
+      "offline": false,
+      "offlineCause": null,
+      "offlineCauseReason": "",
+      "oneOffExecutors": [
+        { },
+        { },
+        { },
+        { },
+        { }
+      ],
+      "temporarilyOffline": false
+    },
+    {
+      "_class": "hudson.slaves.SlaveComputer",
+      "actions": [
+        {
+          "_class": "hudson.plugins.jobConfigHistory.ComputerConfigHistoryAction"
+        },
+        { }
+      ],
+      "assignedLabels": [
+        {
+          "name": "172.23.240.1-ad5ebfb1"
+        },
+        {
+          "name": "A100-PCIE-40GB"
+        },
+        {
+          "name": "blossom_windows_static"
+        },
+        {
+          "name": "blossom_windows_static_GPU"
+        },
+        {
+          "name": "swarm"
+        }
+      ],
+      "description": "Swarm agent from 10.233.116.0",
+      "displayName": "172.23.240.1-ad5ebfb1",
+      "executors": [
+        { }
+      ],
+      "icon": "computer.png",
+      "iconClassName": "icon-computer",
+      "idle": true,
+      "jnlpAgent": true,
+      "launchSupported": false,
+      "loadStatistics": {
+        "_class": "hudson.model.Label$1"
+      },
+      "manualLaunchAllowed": true,
+      "monitorData": {
+        "hudson.node_monitors.SwapSpaceMonitor": {
+          "_class": "hudson.node_monitors.SwapSpaceMonitor$MemoryUsage2",
+          "availablePhysicalMemory": 127972388864,
+          "availableSwapSpace": 147013820416,
+          "totalPhysicalMemory": 137298161664,
+          "totalSwapSpace": 157699256320
+        },
+        "hudson.node_monitors.TemporarySpaceMonitor": {
+          "_class": "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
+          "timestamp": 1663359157563,
+          "path": "C:\\Windows\\Temp",
+          "size": 541952229376
+        },
+        "hudson.node_monitors.DiskSpaceMonitor": {
+          "_class": "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
+          "timestamp": 1663359157563,
+          "path": "C:\\Users\\colossus\\Downloads",
+          "size": 541952229376
+        },
+        "hudson.node_monitors.ArchitectureMonitor": "Windows Server 2019 (amd64)",
+        "hudson.node_monitors.ResponseTimeMonitor": {
+          "_class": "hudson.node_monitors.ResponseTimeMonitor$Data",
+          "timestamp": 1663359157557,
+          "average": 71
+        },
+        "hudson.node_monitors.ClockMonitor": {
+          "_class": "hudson.util.ClockDifference",
+          "diff": 135
+        }
+      },
+      "numExecutors": 1,
+      "offline": false,
+      "offlineCause": null,
+      "offlineCauseReason": "",
+      "oneOffExecutors": [ ],
+      "temporarilyOffline": false,
+      "absoluteRemotePath": "C:\\Users\\colossus\\Downloads\\."
+    },
+    {
+      "_class": "hudson.slaves.SlaveComputer",
+      "actions": [
+        {
+          "_class": "hudson.plugins.jobConfigHistory.ComputerConfigHistoryAction"
+        },
+        { }
+      ],
+      "assignedLabels": [
+        {
+          "name": "Tesla-P40"
+        },
+        {
+          "name": "ipp1-0594.nvidia.com-8895b0ca"
+        },
+        {
+          "name": "swarm"
+        }
+      ],
+      "description": "Swarm agent from 10.233.127.162",
+      "displayName": "ipp1-0594.nvidia.com-8895b0ca",
+      "executors": [
+        { },
+        { }
+      ],
+      "icon": "computer.png",
+      "iconClassName": "icon-computer",
+      "idle": true,
+      "jnlpAgent": true,
+      "launchSupported": false,
+      "loadStatistics": {
+        "_class": "hudson.model.Label$1"
+      },
+      "manualLaunchAllowed": true,
+      "monitorData": {
+        "hudson.node_monitors.SwapSpaceMonitor": {
+          "_class": "hudson.node_monitors.SwapSpaceMonitor$MemoryUsage2",
+          "availablePhysicalMemory": 57378725888,
+          "availableSwapSpace": 66841505792,
+          "totalPhysicalMemory": 68356108288,
+          "totalSwapSpace": 78556655616
+        },
+        "hudson.node_monitors.TemporarySpaceMonitor": {
+          "_class": "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
+          "timestamp": 1663359157563,
+          "path": "C:\\Windows\\Temp",
+          "size": 750555283456
+        },
+        "hudson.node_monitors.DiskSpaceMonitor": {
+          "_class": "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
+          "timestamp": 1663359157563,
+          "path": "C:\\Users\\colossus",
+          "size": 750555283456
+        },
+        "hudson.node_monitors.ArchitectureMonitor": "Windows Server 2019 (amd64)",
+        "hudson.node_monitors.ResponseTimeMonitor": {
+          "_class": "hudson.node_monitors.ResponseTimeMonitor$Data",
+          "timestamp": 1663359157556,
+          "average": 67
+        },
+        "hudson.node_monitors.ClockMonitor": {
+          "_class": "hudson.util.ClockDifference",
+          "diff": 137
+        }
+      },
+      "numExecutors": 2,
+      "offline": false,
+      "offlineCause": null,
+      "offlineCauseReason": "",
+      "oneOffExecutors": [ ],
+      "temporarilyOffline": false,
+      "absoluteRemotePath": "C:\\Users\\colossus\\."
+    },
+    {
+      "_class": "hudson.slaves.SlaveComputer",
+      "actions": [
+        {
+          "_class": "hudson.plugins.jobConfigHistory.ComputerConfigHistoryAction"
+        },
+        { }
+      ],
+      "assignedLabels": [
+        {
+          "name": "Tesla-P40"
+        },
+        {
+          "name": "ipp1-0594.nvidia.com-b7bce712"
+        },
+        {
+          "name": "swarm"
+        }
+      ],
+      "description": "Swarm agent from 10.233.127.162",
+      "displayName": "ipp1-0594.nvidia.com-b7bce712",
+      "executors": [
+        { },
+        { }
+      ],
+      "icon": "computer-x.png",
+      "iconClassName": "icon-computer-x",
+      "idle": true,
+      "jnlpAgent": true,
+      "launchSupported": false,
+      "loadStatistics": {
+        "_class": "hudson.model.Label$1"
+      },
+      "manualLaunchAllowed": true,
+      "monitorData": {
+        "hudson.node_monitors.SwapSpaceMonitor": null,
+        "hudson.node_monitors.TemporarySpaceMonitor": null,
+        "hudson.node_monitors.DiskSpaceMonitor": null,
+        "hudson.node_monitors.ArchitectureMonitor": null,
+        "hudson.node_monitors.ResponseTimeMonitor": null,
+        "hudson.node_monitors.ClockMonitor": null
+      },
+      "numExecutors": 2,
+      "offline": true,
+      "offlineCause": {
+        "_class": "hudson.slaves.OfflineCause$ChannelTermination"
+      },
+      "offlineCauseReason": "Connection was broken: java.nio.channels.ClosedChannelException\n\tat org.jenkinsci.remoting.protocol.NetworkLayer.onRecvClosed(NetworkLayer.java:154)\n\tat org.jenkinsci.remoting.protocol.impl.NIONetworkLayer.ready(NIONetworkLayer.java:179)\n\tat org.jenkinsci.remoting.protocol.IOHub$OnReady.run(IOHub.java:790)\n\tat jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)\n\tat jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:829)\n",
+      "oneOffExecutors": [ ],
+      "temporarilyOffline": true,
+      "absoluteRemotePath": null
+    },
+    {
+      "_class": "hudson.slaves.SlaveComputer",
+      "actions": [
+        {
+          "_class": "hudson.plugins.jobConfigHistory.ComputerConfigHistoryAction"
+        },
+        { }
+      ],
+      "assignedLabels": [
+        {
+          "name": "Tesla-M60"
+        },
+        {
+          "name": "ipp1-0596.nvidia.com-40302859"
+        },
+        {
+          "name": "swarm"
+        }
+      ],
+      "description": "Swarm agent from 10.233.121.70",
+      "displayName": "ipp1-0596.nvidia.com-40302859",
+      "executors": [
+        { }
+      ],
+      "icon": "computer.png",
+      "iconClassName": "icon-computer",
+      "idle": true,
+      "jnlpAgent": true,
+      "launchSupported": false,
+      "loadStatistics": {
+        "_class": "hudson.model.Label$1"
+      },
+      "manualLaunchAllowed": true,
+      "monitorData": {
+        "hudson.node_monitors.SwapSpaceMonitor": {
+          "_class": "hudson.node_monitors.SwapSpaceMonitor$MemoryUsage2",
+          "availablePhysicalMemory": 63835635712,
+          "availableSwapSpace": 72909103104,
+          "totalPhysicalMemory": 68356108288,
+          "totalSwapSpace": 78556655616
+        },
+        "hudson.node_monitors.TemporarySpaceMonitor": {
+          "_class": "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
+          "timestamp": 1663359157296,
+          "path": "C:\\Windows\\Temp",
+          "size": 879398977536
+        },
+        "hudson.node_monitors.DiskSpaceMonitor": {
+          "_class": "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
+          "timestamp": 1663359157297,
+          "path": "C:\\Users\\svc-blsm-hostlease",
+          "size": 879398977536
+        },
+        "hudson.node_monitors.ArchitectureMonitor": "Windows Server 2019 (amd64)",
+        "hudson.node_monitors.ResponseTimeMonitor": {
+          "_class": "hudson.node_monitors.ResponseTimeMonitor$Data",
+          "timestamp": 1663359157294,
+          "average": 8
+        },
+        "hudson.node_monitors.ClockMonitor": {
+          "_class": "hudson.util.ClockDifference",
+          "diff": 1
+        }
+      },
+      "numExecutors": 1,
+      "offline": false,
+      "offlineCause": null,
+      "offlineCauseReason": "",
+      "oneOffExecutors": [ ],
+      "temporarilyOffline": false,
+      "absoluteRemotePath": "C:\\Users\\svc-blsm-hostlease\\."
+    },
+    {
+      "_class": "hudson.slaves.SlaveComputer",
+      "actions": [
+        {
+          "_class": "hudson.plugins.jobConfigHistory.ComputerConfigHistoryAction"
+        },
+        { }
+      ],
+      "assignedLabels": [
+        {
+          "name": "Tesla-V100"
+        },
+        {
+          "name": "ipp1-0625.nvidia.com-0afb8461"
+        },
+        {
+          "name": "swarm"
+        }
+      ],
+      "description": "Swarm agent from 10.233.124.0",
+      "displayName": "ipp1-0625.nvidia.com-0afb8461",
+      "executors": [
+        { },
+        { }
+      ],
+      "icon": "computer-x.png",
+      "iconClassName": "icon-computer-x",
+      "idle": true,
+      "jnlpAgent": true,
+      "launchSupported": false,
+      "loadStatistics": {
+        "_class": "hudson.model.Label$1"
+      },
+      "manualLaunchAllowed": true,
+      "monitorData": {
+        "hudson.node_monitors.SwapSpaceMonitor": null,
+        "hudson.node_monitors.TemporarySpaceMonitor": null,
+        "hudson.node_monitors.DiskSpaceMonitor": null,
+        "hudson.node_monitors.ArchitectureMonitor": null,
+        "hudson.node_monitors.ResponseTimeMonitor": null,
+        "hudson.node_monitors.ClockMonitor": null
+      },
+      "numExecutors": 2,
+      "offline": true,
+      "offlineCause": {
+        "_class": "hudson.slaves.OfflineCause$ChannelTermination"
+      },
+      "offlineCauseReason": "Connection was broken: java.nio.channels.ClosedChannelException\n\tat org.jenkinsci.remoting.protocol.NetworkLayer.onRecvClosed(NetworkLayer.java:154)\n\tat org.jenkinsci.remoting.protocol.impl.NIONetworkLayer.ready(NIONetworkLayer.java:179)\n\tat org.jenkinsci.remoting.protocol.IOHub$OnReady.run(IOHub.java:790)\n\tat jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)\n\tat jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:829)\n",
+      "oneOffExecutors": [ ],
+      "temporarilyOffline": true,
+      "absoluteRemotePath": null
+    },
+    {
+      "_class": "hudson.slaves.SlaveComputer",
+      "actions": [
+        {
+          "_class": "hudson.plugins.jobConfigHistory.ComputerConfigHistoryAction"
+        },
+        { }
+      ],
+      "assignedLabels": [
+        {
+          "name": "Tesla-V100"
+        },
+        {
+          "name": "ipp1-0625.nvidia.com-d6ddf09d"
+        },
+        {
+          "name": "swarm"
+        }
+      ],
+      "description": "Swarm agent from 10.233.124.0",
+      "displayName": "ipp1-0625.nvidia.com-d6ddf09d",
+      "executors": [
+        { },
+        { }
+      ],
+      "icon": "computer.png",
+      "iconClassName": "icon-computer",
+      "idle": true,
+      "jnlpAgent": true,
+      "launchSupported": false,
+      "loadStatistics": {
+        "_class": "hudson.model.Label$1"
+      },
+      "manualLaunchAllowed": true,
+      "monitorData": {
+        "hudson.node_monitors.SwapSpaceMonitor": {
+          "_class": "hudson.node_monitors.SwapSpaceMonitor$MemoryUsage2",
+          "availablePhysicalMemory": 58337464320,
+          "availableSwapSpace": 67374678016,
+          "totalPhysicalMemory": 68356108288,
+          "totalSwapSpace": 78556655616
+        },
+        "hudson.node_monitors.TemporarySpaceMonitor": {
+          "_class": "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
+          "timestamp": 1663359157563,
+          "path": "C:\\Windows\\Temp",
+          "size": 730373931008
+        },
+        "hudson.node_monitors.DiskSpaceMonitor": {
+          "_class": "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
+          "timestamp": 1663359157563,
+          "path": "C:\\Users\\colossus",
+          "size": 730373931008
+        },
+        "hudson.node_monitors.ArchitectureMonitor": "Windows Server 2019 (amd64)",
+        "hudson.node_monitors.ResponseTimeMonitor": {
+          "_class": "hudson.node_monitors.ResponseTimeMonitor$Data",
+          "timestamp": 1663359157557,
+          "average": 70
+        },
+        "hudson.node_monitors.ClockMonitor": {
+          "_class": "hudson.util.ClockDifference",
+          "diff": 132
+        }
+      },
+      "numExecutors": 2,
+      "offline": false,
+      "offlineCause": null,
+      "offlineCauseReason": "",
+      "oneOffExecutors": [ ],
+      "temporarilyOffline": false,
+      "absoluteRemotePath": "C:\\Users\\colossus\\."
+    },
+    {
+      "_class": "hudson.slaves.SlaveComputer",
+      "actions": [
+        {
+          "_class": "hudson.plugins.jobConfigHistory.ComputerConfigHistoryAction"
+        },
+        { }
+      ],
+      "assignedLabels": [
+        {
+          "name": "A100-PCIE-40GB"
+        },
+        {
+          "name": "ipp1-2159.nvidia.com-419baf1f"
+        },
+        {
+          "name": "swarm"
+        }
+      ],
+      "description": "Swarm agent from 10.233.121.70",
+      "displayName": "ipp1-2159.nvidia.com-419baf1f",
+      "executors": [
+        { }
+      ],
+      "icon": "computer.png",
+      "iconClassName": "icon-computer",
+      "idle": true,
+      "jnlpAgent": true,
+      "launchSupported": false,
+      "loadStatistics": {
+        "_class": "hudson.model.Label$1"
+      },
+      "manualLaunchAllowed": true,
+      "monitorData": {
+        "hudson.node_monitors.SwapSpaceMonitor": {
+          "_class": "hudson.node_monitors.SwapSpaceMonitor$MemoryUsage2",
+          "availablePhysicalMemory": 128910422016,
+          "availableSwapSpace": 147653550080,
+          "totalPhysicalMemory": 137298243584,
+          "totalSwapSpace": 157699338240
+        },
+        "hudson.node_monitors.TemporarySpaceMonitor": {
+          "_class": "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
+          "timestamp": 1663359157563,
+          "path": "C:\\Windows\\Temp",
+          "size": 862966648832
+        },
+        "hudson.node_monitors.DiskSpaceMonitor": {
+          "_class": "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
+          "timestamp": 1663359157563,
+          "path": "C:\\Users\\svc-blsm-hostlease",
+          "size": 862966648832
+        },
+        "hudson.node_monitors.ArchitectureMonitor": "Windows Server 2019 (amd64)",
+        "hudson.node_monitors.ResponseTimeMonitor": {
+          "_class": "hudson.node_monitors.ResponseTimeMonitor$Data",
+          "timestamp": 1663359157556,
+          "average": 60
+        },
+        "hudson.node_monitors.ClockMonitor": {
+          "_class": "hudson.util.ClockDifference",
+          "diff": 135
+        }
+      },
+      "numExecutors": 1,
+      "offline": false,
+      "offlineCause": null,
+      "offlineCauseReason": "",
+      "oneOffExecutors": [ ],
+      "temporarilyOffline": false,
+      "absoluteRemotePath": "C:\\Users\\svc-blsm-hostlease\\."
+    },
+    {
+      "_class": "hudson.slaves.SlaveComputer",
+      "actions": [
+        {
+          "_class": "hudson.plugins.jobConfigHistory.ComputerConfigHistoryAction"
+        },
+        { }
+      ],
+      "assignedLabels": [
+        {
+          "name": "A100-PCIE-40GB"
+        },
+        {
+          "name": "blossom_windows_static"
+        },
+        {
+          "name": "blossom_windows_static_GPU"
+        },
+        {
+          "name": "ipp1-2309.nvidia.com-8450039a"
+        },
+        {
+          "name": "swarm"
+        }
+      ],
+      "description": "Swarm agent from 10.233.116.0",
+      "displayName": "ipp1-2309.nvidia.com-8450039a",
+      "executors": [
+        { }
+      ],
+      "icon": "computer-user-offline.png",
+      "iconClassName": "icon-computer-user-offline",
+      "idle": true,
+      "jnlpAgent": true,
+      "launchSupported": false,
+      "loadStatistics": {
+        "_class": "hudson.model.Label$1"
+      },
+      "manualLaunchAllowed": true,
+      "monitorData": {
+        "hudson.node_monitors.SwapSpaceMonitor": null,
+        "hudson.node_monitors.TemporarySpaceMonitor": null,
+        "hudson.node_monitors.DiskSpaceMonitor": null,
+        "hudson.node_monitors.ArchitectureMonitor": null,
+        "hudson.node_monitors.ResponseTimeMonitor": null,
+        "hudson.node_monitors.ClockMonitor": null
+      },
+      "numExecutors": 1,
+      "offline": true,
+      "offlineCause": {
+        "_class": "hudson.slaves.OfflineCause$UserCause"
+      },
+      "offlineCauseReason": "node is shown as offline",
+      "oneOffExecutors": [ ],
+      "temporarilyOffline": true,
+      "absoluteRemotePath": null
+    },
+    {
+      "_class": "hudson.slaves.SlaveComputer",
+      "actions": [
+        {
+          "_class": "hudson.plugins.jobConfigHistory.ComputerConfigHistoryAction"
+        },
+        { }
+      ],
+      "assignedLabels": [
+        {
+          "name": "Tesla-V100"
+        },
+        {
+          "name": "ipp1-2795.nvidia.com-ee28d5a4"
+        },
+        {
+          "name": "swarm"
+        }
+      ],
+      "description": "Swarm agent from 10.233.124.0",
+      "displayName": "ipp1-2795.nvidia.com-ee28d5a4",
+      "executors": [
+        { },
+        { }
+      ],
+      "icon": "computer-user-offline.png",
+      "iconClassName": "icon-computer-user-offline",
+      "idle": true,
+      "jnlpAgent": true,
+      "launchSupported": false,
+      "loadStatistics": {
+        "_class": "hudson.model.Label$1"
+      },
+      "manualLaunchAllowed": true,
+      "monitorData": {
+        "hudson.node_monitors.SwapSpaceMonitor": {
+          "_class": "hudson.node_monitors.SwapSpaceMonitor$MemoryUsage2",
+          "availablePhysicalMemory": 63098990592,
+          "availableSwapSpace": 71943884800,
+          "totalPhysicalMemory": 68355125248,
+          "totalSwapSpace": 78555672576
+        },
+        "hudson.node_monitors.TemporarySpaceMonitor": {
+          "_class": "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
+          "timestamp": 1663359157293,
+          "path": "C:\\Windows\\Temp",
+          "size": 915222818816
+        },
+        "hudson.node_monitors.DiskSpaceMonitor": {
+          "_class": "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
+          "timestamp": 1663359157293,
+          "path": "C:\\Users\\svc-blsm-hostlease",
+          "size": 915222818816
+        },
+        "hudson.node_monitors.ArchitectureMonitor": "Windows Server 2019 (amd64)",
+        "hudson.node_monitors.ResponseTimeMonitor": {
+          "_class": "hudson.node_monitors.ResponseTimeMonitor$Data",
+          "timestamp": 1663359157293,
+          "average": 6
+        },
+        "hudson.node_monitors.ClockMonitor": {
+          "_class": "hudson.util.ClockDifference",
+          "diff": 2
+        }
+      },
+      "numExecutors": 2,
+      "offline": true,
+      "offlineCause": {
+        "_class": "hudson.slaves.OfflineCause$UserCause"
+      },
+      "offlineCauseReason": "for test",
+      "oneOffExecutors": [ ],
+      "temporarilyOffline": true,
+      "absoluteRemotePath": "C:\\Users\\svc-blsm-hostlease\\."
+    },
+    {
+      "_class": "hudson.slaves.SlaveComputer",
+      "actions": [
+        {
+          "_class": "hudson.plugins.jobConfigHistory.ComputerConfigHistoryAction"
+        },
+        { }
+      ],
+      "assignedLabels": [
+        {
+          "name": "Tesla-V100"
+        },
+        {
+          "name": "ipp1-2796.nvidia.com-a64c2bff"
+        },
+        {
+          "name": "swarm"
+        }
+      ],
+      "description": "Swarm agent from 10.233.127.162",
+      "displayName": "ipp1-2796.nvidia.com-a64c2bff",
+      "executors": [
+        { },
+        { }
+      ],
+      "icon": "computer.png",
+      "iconClassName": "icon-computer",
+      "idle": true,
+      "jnlpAgent": true,
+      "launchSupported": false,
+      "loadStatistics": {
+        "_class": "hudson.model.Label$1"
+      },
+      "manualLaunchAllowed": true,
+      "monitorData": {
+        "hudson.node_monitors.SwapSpaceMonitor": {
+          "_class": "hudson.node_monitors.SwapSpaceMonitor$MemoryUsage2",
+          "availablePhysicalMemory": 62878429184,
+          "availableSwapSpace": 67379277824,
+          "totalPhysicalMemory": 68355125248,
+          "totalSwapSpace": 78555672576
+        },
+        "hudson.node_monitors.TemporarySpaceMonitor": {
+          "_class": "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
+          "timestamp": 1663359157563,
+          "path": "C:\\Windows\\Temp",
+          "size": 808064737280
+        },
+        "hudson.node_monitors.DiskSpaceMonitor": {
+          "_class": "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
+          "timestamp": 1663359157563,
+          "path": "C:\\Users\\svc-blsm-hostlease",
+          "size": 808064737280
+        },
+        "hudson.node_monitors.ArchitectureMonitor": "Windows Server 2019 (amd64)",
+        "hudson.node_monitors.ResponseTimeMonitor": {
+          "_class": "hudson.node_monitors.ResponseTimeMonitor$Data",
+          "timestamp": 1663359157556,
+          "average": 60
+        },
+        "hudson.node_monitors.ClockMonitor": {
+          "_class": "hudson.util.ClockDifference",
+          "diff": 134
+        }
+      },
+      "numExecutors": 2,
+      "offline": false,
+      "offlineCause": null,
+      "offlineCauseReason": "",
+      "oneOffExecutors": [ ],
+      "temporarilyOffline": false,
+      "absoluteRemotePath": "C:\\Users\\svc-blsm-hostlease\\."
+    },
+    {
+      "_class": "hudson.slaves.SlaveComputer",
+      "actions": [
+        {
+          "_class": "hudson.plugins.jobConfigHistory.ComputerConfigHistoryAction"
+        },
+        { }
+      ],
+      "assignedLabels": [
+        {
+          "name": "A100-PCIE-40GB_temp"
+        },
+        {
+          "name": "ipp1-3094.nvidia.com-9e5a9231"
+        },
+        {
+          "name": "swarm"
+        }
+      ],
+      "description": "Swarm agent from 10.233.116.0",
+      "displayName": "ipp1-3094.nvidia.com-9e5a9231",
+      "executors": [
+        { }
+      ],
+      "icon": "computer-x.png",
+      "iconClassName": "icon-computer-x",
+      "idle": true,
+      "jnlpAgent": true,
+      "launchSupported": false,
+      "loadStatistics": {
+        "_class": "hudson.model.Label$1"
+      },
+      "manualLaunchAllowed": true,
+      "monitorData": {
+        "hudson.node_monitors.SwapSpaceMonitor": null,
+        "hudson.node_monitors.TemporarySpaceMonitor": null,
+        "hudson.node_monitors.DiskSpaceMonitor": null,
+        "hudson.node_monitors.ArchitectureMonitor": null,
+        "hudson.node_monitors.ResponseTimeMonitor": null,
+        "hudson.node_monitors.ClockMonitor": null
+      },
+      "numExecutors": 1,
+      "offline": true,
+      "offlineCause": {
+        "_class": "hudson.slaves.OfflineCause$ChannelTermination"
+      },
+      "offlineCauseReason": "Connection was broken: java.nio.channels.ClosedChannelException\n\tat org.jenkinsci.remoting.protocol.NetworkLayer.onRecvClosed(NetworkLayer.java:154)\n\tat org.jenkinsci.remoting.protocol.impl.NIONetworkLayer.ready(NIONetworkLayer.java:179)\n\tat org.jenkinsci.remoting.protocol.IOHub$OnReady.run(IOHub.java:790)\n\tat jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)\n\tat jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:829)\n",
+      "oneOffExecutors": [ ],
+      "temporarilyOffline": true,
+      "absoluteRemotePath": null
+    },
+    {
+      "_class": "hudson.slaves.SlaveComputer",
+      "actions": [
+        {
+          "_class": "hudson.plugins.jobConfigHistory.ComputerConfigHistoryAction"
+        },
+        { }
+      ],
+      "assignedLabels": [
+        {
+          "name": "A100-PCIE-40GB"
+        },
+        {
+          "name": "ipp1-3094.nvidia.com-be60e683"
+        },
+        {
+          "name": "swarm"
+        }
+      ],
+      "description": "Swarm agent from 10.233.116.0",
+      "displayName": "ipp1-3094.nvidia.com-be60e683",
+      "executors": [
+        { }
+      ],
+      "icon": "computer.png",
+      "iconClassName": "icon-computer",
+      "idle": true,
+      "jnlpAgent": true,
+      "launchSupported": false,
+      "loadStatistics": {
+        "_class": "hudson.model.Label$1"
+      },
+      "manualLaunchAllowed": true,
+      "monitorData": {
+        "hudson.node_monitors.SwapSpaceMonitor": {
+          "_class": "hudson.node_monitors.SwapSpaceMonitor$MemoryUsage2",
+          "availablePhysicalMemory": 128803946496,
+          "availableSwapSpace": 142597292032,
+          "totalPhysicalMemory": 137298182144,
+          "totalSwapSpace": 157699276800
+        },
+        "hudson.node_monitors.TemporarySpaceMonitor": {
+          "_class": "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
+          "timestamp": 1663359157563,
+          "path": "C:\\Windows\\Temp",
+          "size": 830647427072
+        },
+        "hudson.node_monitors.DiskSpaceMonitor": {
+          "_class": "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
+          "timestamp": 1663359157563,
+          "path": "C:\\Users\\svc-blsm-hostlease",
+          "size": 830647427072
+        },
+        "hudson.node_monitors.ArchitectureMonitor": "Windows Server 2019 (amd64)",
+        "hudson.node_monitors.ResponseTimeMonitor": {
+          "_class": "hudson.node_monitors.ResponseTimeMonitor$Data",
+          "timestamp": 1663359157557,
+          "average": 70
+        },
+        "hudson.node_monitors.ClockMonitor": {
+          "_class": "hudson.util.ClockDifference",
+          "diff": 135
+        }
+      },
+      "numExecutors": 1,
+      "offline": false,
+      "offlineCause": null,
+      "offlineCauseReason": "",
+      "oneOffExecutors": [ ],
+      "temporarilyOffline": false,
+      "absoluteRemotePath": "C:\\Users\\svc-blsm-hostlease\\."
+    },
+    {
+      "_class": "hudson.slaves.SlaveComputer",
+      "actions": [
+        {
+          "_class": "hudson.plugins.jobConfigHistory.ComputerConfigHistoryAction"
+        },
+        { }
+      ],
+      "assignedLabels": [
+        {
+          "name": "A100-PCIE-40GB"
+        },
+        {
+          "name": "ipp1-3169.nvidia.com-6d779a7d"
+        },
+        {
+          "name": "swarm"
+        }
+      ],
+      "description": "Swarm agent from 10.233.126.0",
+      "displayName": "ipp1-3169.nvidia.com-6d779a7d",
+      "executors": [
+        { }
+      ],
+      "icon": "computer.png",
+      "iconClassName": "icon-computer",
+      "idle": true,
+      "jnlpAgent": true,
+      "launchSupported": false,
+      "loadStatistics": {
+        "_class": "hudson.model.Label$1"
+      },
+      "manualLaunchAllowed": true,
+      "monitorData": {
+        "hudson.node_monitors.SwapSpaceMonitor": {
+          "_class": "hudson.node_monitors.SwapSpaceMonitor$MemoryUsage2",
+          "availablePhysicalMemory": 129208098816,
+          "availableSwapSpace": 148210999296,
+          "totalPhysicalMemory": 137298182144,
+          "totalSwapSpace": 157699276800
+        },
+        "hudson.node_monitors.TemporarySpaceMonitor": {
+          "_class": "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
+          "timestamp": 1663359157293,
+          "path": "C:\\Windows\\Temp",
+          "size": 912791515136
+        },
+        "hudson.node_monitors.DiskSpaceMonitor": {
+          "_class": "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
+          "timestamp": 1663359157293,
+          "path": "C:\\Users\\svc-blsm-hostlease",
+          "size": 912791515136
+        },
+        "hudson.node_monitors.ArchitectureMonitor": "Windows Server 2019 (amd64)",
+        "hudson.node_monitors.ResponseTimeMonitor": {
+          "_class": "hudson.node_monitors.ResponseTimeMonitor$Data",
+          "timestamp": 1663359157293,
+          "average": 5
+        },
+        "hudson.node_monitors.ClockMonitor": {
+          "_class": "hudson.util.ClockDifference",
+          "diff": 1
+        }
+      },
+      "numExecutors": 1,
+      "offline": false,
+      "offlineCause": null,
+      "offlineCauseReason": "",
+      "oneOffExecutors": [ ],
+      "temporarilyOffline": false,
+      "absoluteRemotePath": "C:\\Users\\svc-blsm-hostlease\\."
+    },
+    {
+      "_class": "hudson.slaves.SlaveComputer",
+      "actions": [
+        {
+          "_class": "hudson.plugins.jobConfigHistory.ComputerConfigHistoryAction"
+        },
+        { }
+      ],
+      "assignedLabels": [
+        {
+          "name": "A100-PCIE-40GB_temp"
+        },
+        {
+          "name": "ipp1-3169.nvidia.com-7d986529"
+        },
+        {
+          "name": "swarm"
+        }
+      ],
+      "description": "Swarm agent from 10.233.126.0",
+      "displayName": "ipp1-3169.nvidia.com-7d986529",
+      "executors": [
+        { }
+      ],
+      "icon": "computer-x.png",
+      "iconClassName": "icon-computer-x",
+      "idle": true,
+      "jnlpAgent": true,
+      "launchSupported": false,
+      "loadStatistics": {
+        "_class": "hudson.model.Label$1"
+      },
+      "manualLaunchAllowed": true,
+      "monitorData": {
+        "hudson.node_monitors.SwapSpaceMonitor": null,
+        "hudson.node_monitors.TemporarySpaceMonitor": null,
+        "hudson.node_monitors.DiskSpaceMonitor": null,
+        "hudson.node_monitors.ArchitectureMonitor": null,
+        "hudson.node_monitors.ResponseTimeMonitor": null,
+        "hudson.node_monitors.ClockMonitor": null
+      },
+      "numExecutors": 1,
+      "offline": true,
+      "offlineCause": {
+        "_class": "hudson.slaves.OfflineCause$ChannelTermination"
+      },
+      "offlineCauseReason": "Connection was broken: java.nio.channels.ClosedChannelException\n\tat org.jenkinsci.remoting.protocol.NetworkLayer.onRecvClosed(NetworkLayer.java:154)\n\tat org.jenkinsci.remoting.protocol.impl.NIONetworkLayer.ready(NIONetworkLayer.java:179)\n\tat org.jenkinsci.remoting.protocol.IOHub$OnReady.run(IOHub.java:790)\n\tat jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)\n\tat jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:829)\n",
+      "oneOffExecutors": [ ],
+      "temporarilyOffline": true,
+      "absoluteRemotePath": null
+    },
+    {
+      "_class": "hudson.slaves.SlaveComputer",
+      "actions": [
+        {
+          "_class": "hudson.plugins.jobConfigHistory.ComputerConfigHistoryAction"
+        },
+        { }
+      ],
+      "assignedLabels": [
+        {
+          "name": "A100-PCIE-40GB"
+        },
+        {
+          "name": "ipp1-3170.nvidia.com-2fc1579f"
+        },
+        {
+          "name": "swarm"
+        }
+      ],
+      "description": "Swarm agent from 10.233.124.0",
+      "displayName": "ipp1-3170.nvidia.com-2fc1579f",
+      "executors": [
+        { }
+      ],
+      "icon": "computer.png",
+      "iconClassName": "icon-computer",
+      "idle": true,
+      "jnlpAgent": true,
+      "launchSupported": false,
+      "loadStatistics": {
+        "_class": "hudson.model.Label$1"
+      },
+      "manualLaunchAllowed": true,
+      "monitorData": {
+        "hudson.node_monitors.SwapSpaceMonitor": {
+          "_class": "hudson.node_monitors.SwapSpaceMonitor$MemoryUsage2",
+          "availablePhysicalMemory": 128637452288,
+          "availableSwapSpace": 147560230912,
+          "totalPhysicalMemory": 137298186240,
+          "totalSwapSpace": 157699280896
+        },
+        "hudson.node_monitors.TemporarySpaceMonitor": {
+          "_class": "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
+          "timestamp": 1663359157563,
+          "path": "C:\\Windows\\Temp",
+          "size": 903115735040
+        },
+        "hudson.node_monitors.DiskSpaceMonitor": {
+          "_class": "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
+          "timestamp": 1663359157563,
+          "path": "C:\\Users\\svc-blsm-hostlease",
+          "size": 903115735040
+        },
+        "hudson.node_monitors.ArchitectureMonitor": "Windows Server 2019 (amd64)",
+        "hudson.node_monitors.ResponseTimeMonitor": {
+          "_class": "hudson.node_monitors.ResponseTimeMonitor$Data",
+          "timestamp": 1663359157556,
+          "average": 64
+        },
+        "hudson.node_monitors.ClockMonitor": {
+          "_class": "hudson.util.ClockDifference",
+          "diff": 134
+        }
+      },
+      "numExecutors": 1,
+      "offline": false,
+      "offlineCause": null,
+      "offlineCauseReason": "",
+      "oneOffExecutors": [ ],
+      "temporarilyOffline": false,
+      "absoluteRemotePath": "C:\\Users\\svc-blsm-hostlease\\."
+    },
+    {
+      "_class": "hudson.slaves.SlaveComputer",
+      "actions": [
+        {
+          "_class": "hudson.plugins.jobConfigHistory.ComputerConfigHistoryAction"
+        },
+        { }
+      ],
+      "assignedLabels": [
+        {
+          "name": "A100-PCIE-40GB_temp"
+        },
+        {
+          "name": "ipp1-3170.nvidia.com-7b09494a"
+        },
+        {
+          "name": "swarm"
+        }
+      ],
+      "description": "Swarm agent from 10.233.124.0",
+      "displayName": "ipp1-3170.nvidia.com-7b09494a",
+      "executors": [
+        { }
+      ],
+      "icon": "computer-x.png",
+      "iconClassName": "icon-computer-x",
+      "idle": true,
+      "jnlpAgent": true,
+      "launchSupported": false,
+      "loadStatistics": {
+        "_class": "hudson.model.Label$1"
+      },
+      "manualLaunchAllowed": true,
+      "monitorData": {
+        "hudson.node_monitors.SwapSpaceMonitor": null,
+        "hudson.node_monitors.TemporarySpaceMonitor": null,
+        "hudson.node_monitors.DiskSpaceMonitor": null,
+        "hudson.node_monitors.ArchitectureMonitor": null,
+        "hudson.node_monitors.ResponseTimeMonitor": null,
+        "hudson.node_monitors.ClockMonitor": null
+      },
+      "numExecutors": 1,
+      "offline": true,
+      "offlineCause": {
+        "_class": "hudson.slaves.OfflineCause$ChannelTermination"
+      },
+      "offlineCauseReason": "Connection was broken: java.nio.channels.ClosedChannelException\n\tat org.jenkinsci.remoting.protocol.NetworkLayer.onRecvClosed(NetworkLayer.java:154)\n\tat org.jenkinsci.remoting.protocol.impl.NIONetworkLayer.ready(NIONetworkLayer.java:179)\n\tat org.jenkinsci.remoting.protocol.IOHub$OnReady.run(IOHub.java:790)\n\tat jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)\n\tat jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:829)\n",
+      "oneOffExecutors": [ ],
+      "temporarilyOffline": true,
+      "absoluteRemotePath": null
+    },
+    {
+      "_class": "hudson.slaves.SlaveComputer",
+      "actions": [
+        {
+          "_class": "hudson.plugins.jobConfigHistory.ComputerConfigHistoryAction"
+        },
+        { }
+      ],
+      "assignedLabels": [
+        {
+          "name": "A100-PCIE-40GB_temp"
+        },
+        {
+          "name": "ipp1-3171.nvidia.com-53370f1e"
+        },
+        {
+          "name": "swarm"
+        }
+      ],
+      "description": "Swarm agent from 10.233.116.0",
+      "displayName": "ipp1-3171.nvidia.com-53370f1e",
+      "executors": [
+        { }
+      ],
+      "icon": "computer-x.png",
+      "iconClassName": "icon-computer-x",
+      "idle": true,
+      "jnlpAgent": true,
+      "launchSupported": false,
+      "loadStatistics": {
+        "_class": "hudson.model.Label$1"
+      },
+      "manualLaunchAllowed": true,
+      "monitorData": {
+        "hudson.node_monitors.SwapSpaceMonitor": null,
+        "hudson.node_monitors.TemporarySpaceMonitor": null,
+        "hudson.node_monitors.DiskSpaceMonitor": null,
+        "hudson.node_monitors.ArchitectureMonitor": null,
+        "hudson.node_monitors.ResponseTimeMonitor": null,
+        "hudson.node_monitors.ClockMonitor": null
+      },
+      "numExecutors": 1,
+      "offline": true,
+      "offlineCause": {
+        "_class": "hudson.slaves.OfflineCause$ChannelTermination"
+      },
+      "offlineCauseReason": "Connection was broken: java.nio.channels.ClosedChannelException\n\tat org.jenkinsci.remoting.protocol.NetworkLayer.onRecvClosed(NetworkLayer.java:154)\n\tat org.jenkinsci.remoting.protocol.impl.NIONetworkLayer.ready(NIONetworkLayer.java:179)\n\tat org.jenkinsci.remoting.protocol.IOHub$OnReady.run(IOHub.java:790)\n\tat jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)\n\tat jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:829)\n",
+      "oneOffExecutors": [ ],
+      "temporarilyOffline": true,
+      "absoluteRemotePath": null
+    },
+    {
+      "_class": "hudson.slaves.SlaveComputer",
+      "actions": [
+        {
+          "_class": "hudson.plugins.jobConfigHistory.ComputerConfigHistoryAction"
+        },
+        { }
+      ],
+      "assignedLabels": [
+        {
+          "name": "A100-PCIE-40GB"
+        },
+        {
+          "name": "ipp1-3171.nvidia.com-632ea835"
+        },
+        {
+          "name": "swarm"
+        }
+      ],
+      "description": "Swarm agent from 10.233.116.0",
+      "displayName": "ipp1-3171.nvidia.com-632ea835",
+      "executors": [
+        { }
+      ],
+      "icon": "computer.png",
+      "iconClassName": "icon-computer",
+      "idle": true,
+      "jnlpAgent": true,
+      "launchSupported": false,
+      "loadStatistics": {
+        "_class": "hudson.model.Label$1"
+      },
+      "manualLaunchAllowed": true,
+      "monitorData": {
+        "hudson.node_monitors.SwapSpaceMonitor": {
+          "_class": "hudson.node_monitors.SwapSpaceMonitor$MemoryUsage2",
+          "availablePhysicalMemory": 128224686080,
+          "availableSwapSpace": 146831785984,
+          "totalPhysicalMemory": 137298182144,
+          "totalSwapSpace": 157699276800
+        },
+        "hudson.node_monitors.TemporarySpaceMonitor": {
+          "_class": "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
+          "timestamp": 1663359157563,
+          "path": "C:\\Windows\\Temp",
+          "size": 820746235904
+        },
+        "hudson.node_monitors.DiskSpaceMonitor": {
+          "_class": "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
+          "timestamp": 1663359157563,
+          "path": "C:\\Users\\svc-blsm-hostlease",
+          "size": 820746235904
+        },
+        "hudson.node_monitors.ArchitectureMonitor": "Windows Server 2019 (amd64)",
+        "hudson.node_monitors.ResponseTimeMonitor": {
+          "_class": "hudson.node_monitors.ResponseTimeMonitor$Data",
+          "timestamp": 1663359157557,
+          "average": 69
+        },
+        "hudson.node_monitors.ClockMonitor": {
+          "_class": "hudson.util.ClockDifference",
+          "diff": 134
+        }
+      },
+      "numExecutors": 1,
+      "offline": false,
+      "offlineCause": null,
+      "offlineCauseReason": "",
+      "oneOffExecutors": [ ],
+      "temporarilyOffline": false,
+      "absoluteRemotePath": "C:\\Users\\svc-blsm-hostlease\\."
+    },
+    {
+      "_class": "hudson.slaves.SlaveComputer",
+      "actions": [
+        {
+          "_class": "hudson.plugins.jobConfigHistory.ComputerConfigHistoryAction"
+        },
+        { }
+      ],
+      "assignedLabels": [
+        {
+          "name": "Tesla-T4"
+        },
+        {
+          "name": "ipp1-3329.nvidia.com-53b096fa"
+        },
+        {
+          "name": "swarm"
+        }
+      ],
+      "description": "Swarm agent from 10.233.126.0",
+      "displayName": "ipp1-3329.nvidia.com-53b096fa",
+      "executors": [
+        { }
+      ],
+      "icon": "computer.png",
+      "iconClassName": "icon-computer",
+      "idle": true,
+      "jnlpAgent": true,
+      "launchSupported": false,
+      "loadStatistics": {
+        "_class": "hudson.model.Label$1"
+      },
+      "manualLaunchAllowed": true,
+      "monitorData": {
+        "hudson.node_monitors.SwapSpaceMonitor": {
+          "_class": "hudson.node_monitors.SwapSpaceMonitor$MemoryUsage2",
+          "availablePhysicalMemory": 65504141312,
+          "availableSwapSpace": 74899091456,
+          "totalPhysicalMemory": 68356108288,
+          "totalSwapSpace": 78556655616
+        },
+        "hudson.node_monitors.TemporarySpaceMonitor": {
+          "_class": "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
+          "timestamp": 1663359157563,
+          "path": "C:\\Windows\\Temp",
+          "size": 922742951936
+        },
+        "hudson.node_monitors.DiskSpaceMonitor": {
+          "_class": "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
+          "timestamp": 1663359157563,
+          "path": "C:\\Users\\svc-blsm-hostlease",
+          "size": 922742951936
+        },
+        "hudson.node_monitors.ArchitectureMonitor": "Windows Server 2019 (amd64)",
+        "hudson.node_monitors.ResponseTimeMonitor": {
+          "_class": "hudson.node_monitors.ResponseTimeMonitor$Data",
+          "timestamp": 1663359157557,
+          "average": 65
+        },
+        "hudson.node_monitors.ClockMonitor": {
+          "_class": "hudson.util.ClockDifference",
+          "diff": 135
+        }
+      },
+      "numExecutors": 1,
+      "offline": false,
+      "offlineCause": null,
+      "offlineCauseReason": "",
+      "oneOffExecutors": [ ],
+      "temporarilyOffline": false,
+      "absoluteRemotePath": "C:\\Users\\svc-blsm-hostlease\\."
+    },
+    {
+      "_class": "hudson.slaves.SlaveComputer",
+      "actions": [
+        {
+          "_class": "hudson.plugins.jobConfigHistory.ComputerConfigHistoryAction"
+        },
+        { }
+      ],
+      "assignedLabels": [
+        {
+          "name": "Tesla-T4"
+        },
+        {
+          "name": "ipp1-3330.nvidia.com-f097cc29"
+        },
+        {
+          "name": "swarm"
+        }
+      ],
+      "description": "Swarm agent from 10.233.124.0",
+      "displayName": "ipp1-3330.nvidia.com-f097cc29",
+      "executors": [
+        { }
+      ],
+      "icon": "computer.png",
+      "iconClassName": "icon-computer",
+      "idle": true,
+      "jnlpAgent": true,
+      "launchSupported": false,
+      "loadStatistics": {
+        "_class": "hudson.model.Label$1"
+      },
+      "manualLaunchAllowed": true,
+      "monitorData": {
+        "hudson.node_monitors.SwapSpaceMonitor": {
+          "_class": "hudson.node_monitors.SwapSpaceMonitor$MemoryUsage2",
+          "availablePhysicalMemory": 65259323392,
+          "availableSwapSpace": 74627387392,
+          "totalPhysicalMemory": 68356108288,
+          "totalSwapSpace": 78556655616
+        },
+        "hudson.node_monitors.TemporarySpaceMonitor": {
+          "_class": "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
+          "timestamp": 1663359157563,
+          "path": "C:\\Windows\\Temp",
+          "size": 923141492736
+        },
+        "hudson.node_monitors.DiskSpaceMonitor": {
+          "_class": "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
+          "timestamp": 1663359157563,
+          "path": "C:\\Users\\svc-blsm-hostlease",
+          "size": 923141492736
+        },
+        "hudson.node_monitors.ArchitectureMonitor": "Windows Server 2019 (amd64)",
+        "hudson.node_monitors.ResponseTimeMonitor": {
+          "_class": "hudson.node_monitors.ResponseTimeMonitor$Data",
+          "timestamp": 1663359157557,
+          "average": 68
+        },
+        "hudson.node_monitors.ClockMonitor": {
+          "_class": "hudson.util.ClockDifference",
+          "diff": 134
+        }
+      },
+      "numExecutors": 1,
+      "offline": false,
+      "offlineCause": null,
+      "offlineCauseReason": "",
+      "oneOffExecutors": [ ],
+      "temporarilyOffline": false,
+      "absoluteRemotePath": "C:\\Users\\svc-blsm-hostlease\\."
+    },
+    {
+      "_class": "hudson.slaves.SlaveComputer",
+      "actions": [
+        {
+          "_class": "hudson.plugins.jobConfigHistory.ComputerConfigHistoryAction"
+        },
+        { }
+      ],
+      "assignedLabels": [
+        {
+          "name": "Tesla-P40"
+        },
+        {
+          "name": "ipp1-3334.nvidia.com-9195ed1b"
+        },
+        {
+          "name": "swarm"
+        }
+      ],
+      "description": "Swarm agent from 10.233.124.0",
+      "displayName": "ipp1-3334.nvidia.com-9195ed1b",
+      "executors": [
+        { },
+        { }
+      ],
+      "icon": "computer.png",
+      "iconClassName": "icon-computer",
+      "idle": true,
+      "jnlpAgent": true,
+      "launchSupported": false,
+      "loadStatistics": {
+        "_class": "hudson.model.Label$1"
+      },
+      "manualLaunchAllowed": true,
+      "monitorData": {
+        "hudson.node_monitors.SwapSpaceMonitor": {
+          "_class": "hudson.node_monitors.SwapSpaceMonitor$MemoryUsage2",
+          "availablePhysicalMemory": 60223848448,
+          "availableSwapSpace": 65534054400,
+          "totalPhysicalMemory": 68356108288,
+          "totalSwapSpace": 78556655616
+        },
+        "hudson.node_monitors.TemporarySpaceMonitor": {
+          "_class": "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
+          "timestamp": 1663359157296,
+          "path": "C:\\Windows\\Temp",
+          "size": 802262581248
+        },
+        "hudson.node_monitors.DiskSpaceMonitor": {
+          "_class": "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
+          "timestamp": 1663359157297,
+          "path": "C:\\Users\\svc-blsm-hostlease",
+          "size": 802262581248
+        },
+        "hudson.node_monitors.ArchitectureMonitor": "Windows Server 2019 (amd64)",
+        "hudson.node_monitors.ResponseTimeMonitor": {
+          "_class": "hudson.node_monitors.ResponseTimeMonitor$Data",
+          "timestamp": 1663359157294,
+          "average": 6
+        },
+        "hudson.node_monitors.ClockMonitor": {
+          "_class": "hudson.util.ClockDifference",
+          "diff": 1
+        }
+      },
+      "numExecutors": 2,
+      "offline": false,
+      "offlineCause": null,
+      "offlineCauseReason": "",
+      "oneOffExecutors": [ ],
+      "temporarilyOffline": false,
+      "absoluteRemotePath": "C:\\Users\\svc-blsm-hostlease\\."
+    },
+    {
+      "_class": "hudson.slaves.SlaveComputer",
+      "actions": [
+        {
+          "_class": "hudson.plugins.jobConfigHistory.ComputerConfigHistoryAction"
+        },
+        { }
+      ],
+      "assignedLabels": [
+        {
+          "name": "A100-PCIE-40GB"
+        },
+        {
+          "name": "ipp2-0289.nvidia.com-defc19c6"
+        },
+        {
+          "name": "swarm"
+        }
+      ],
+      "description": "Swarm agent from 10.233.127.162",
+      "displayName": "ipp2-0289.nvidia.com-defc19c6",
+      "executors": [
+        { }
+      ],
+      "icon": "computer.png",
+      "iconClassName": "icon-computer",
+      "idle": true,
+      "jnlpAgent": true,
+      "launchSupported": false,
+      "loadStatistics": {
+        "_class": "hudson.model.Label$1"
+      },
+      "manualLaunchAllowed": true,
+      "monitorData": {
+        "hudson.node_monitors.SwapSpaceMonitor": {
+          "_class": "hudson.node_monitors.SwapSpaceMonitor$MemoryUsage2",
+          "availablePhysicalMemory": 128760614912,
+          "availableSwapSpace": 147605286912,
+          "totalPhysicalMemory": 137297784832,
+          "totalSwapSpace": 157698879488
+        },
+        "hudson.node_monitors.TemporarySpaceMonitor": {
+          "_class": "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
+          "timestamp": 1663359157563,
+          "path": "C:\\Windows\\Temp",
+          "size": 821610360832
+        },
+        "hudson.node_monitors.DiskSpaceMonitor": {
+          "_class": "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
+          "timestamp": 1663359157563,
+          "path": "C:\\Users\\svc-blsm-hostlease",
+          "size": 821610360832
+        },
+        "hudson.node_monitors.ArchitectureMonitor": "Windows Server 2019 (amd64)",
+        "hudson.node_monitors.ResponseTimeMonitor": {
+          "_class": "hudson.node_monitors.ResponseTimeMonitor$Data",
+          "timestamp": 1663359157557,
+          "average": 68
+        },
+        "hudson.node_monitors.ClockMonitor": {
+          "_class": "hudson.util.ClockDifference",
+          "diff": 133
+        }
+      },
+      "numExecutors": 1,
+      "offline": false,
+      "offlineCause": null,
+      "offlineCauseReason": "",
+      "oneOffExecutors": [ ],
+      "temporarilyOffline": false,
+      "absoluteRemotePath": "C:\\Users\\svc-blsm-hostlease\\."
+    },
+    {
+      "_class": "hudson.slaves.SlaveComputer",
+      "actions": [
+        {
+          "_class": "hudson.plugins.jobConfigHistory.ComputerConfigHistoryAction"
+        },
+        { }
+      ],
+      "assignedLabels": [
+        {
+          "name": "A100-PCIE-40GB"
+        },
+        {
+          "name": "ipp2-0291.nvidia.com-fc1122fb"
+        },
+        {
+          "name": "swarm"
+        }
+      ],
+      "description": "Swarm agent from 10.233.121.70",
+      "displayName": "ipp2-0291.nvidia.com-fc1122fb",
+      "executors": [
+        { }
+      ],
+      "icon": "computer.png",
+      "iconClassName": "icon-computer",
+      "idle": true,
+      "jnlpAgent": true,
+      "launchSupported": false,
+      "loadStatistics": {
+        "_class": "hudson.model.Label$1"
+      },
+      "manualLaunchAllowed": true,
+      "monitorData": {
+        "hudson.node_monitors.SwapSpaceMonitor": {
+          "_class": "hudson.node_monitors.SwapSpaceMonitor$MemoryUsage2",
+          "availablePhysicalMemory": 129599119360,
+          "availableSwapSpace": 148339781632,
+          "totalPhysicalMemory": 137297784832,
+          "totalSwapSpace": 157698879488
+        },
+        "hudson.node_monitors.TemporarySpaceMonitor": {
+          "_class": "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
+          "timestamp": 1663359157563,
+          "path": "C:\\Windows\\Temp",
+          "size": 825042305024
+        },
+        "hudson.node_monitors.DiskSpaceMonitor": {
+          "_class": "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
+          "timestamp": 1663359157563,
+          "path": "C:\\Users\\svc-blsm-hostlease",
+          "size": 825042305024
+        },
+        "hudson.node_monitors.ArchitectureMonitor": "Windows Server 2019 (amd64)",
+        "hudson.node_monitors.ResponseTimeMonitor": {
+          "_class": "hudson.node_monitors.ResponseTimeMonitor$Data",
+          "timestamp": 1663359157557,
+          "average": 68
+        },
+        "hudson.node_monitors.ClockMonitor": {
+          "_class": "hudson.util.ClockDifference",
+          "diff": 134
+        }
+      },
+      "numExecutors": 1,
+      "offline": false,
+      "offlineCause": null,
+      "offlineCauseReason": "",
+      "oneOffExecutors": [ ],
+      "temporarilyOffline": false,
+      "absoluteRemotePath": "C:\\Users\\svc-blsm-hostlease\\."
+    },
+    {
+      "_class": "hudson.slaves.SlaveComputer",
+      "actions": [
+        {
+          "_class": "hudson.plugins.jobConfigHistory.ComputerConfigHistoryAction"
+        },
+        { }
+      ],
+      "assignedLabels": [
+        {
+          "name": "A100-PCIE-40GB"
+        },
+        {
+          "name": "ipp2-0335.nvidia.com-52f6963b"
+        },
+        {
+          "name": "swarm"
+        }
+      ],
+      "description": "Swarm agent from 10.233.121.70",
+      "displayName": "ipp2-0335.nvidia.com-52f6963b",
+      "executors": [
+        { }
+      ],
+      "icon": "computer.png",
+      "iconClassName": "icon-computer",
+      "idle": true,
+      "jnlpAgent": true,
+      "launchSupported": false,
+      "loadStatistics": {
+        "_class": "hudson.model.Label$1"
+      },
+      "manualLaunchAllowed": true,
+      "monitorData": {
+        "hudson.node_monitors.SwapSpaceMonitor": {
+          "_class": "hudson.node_monitors.SwapSpaceMonitor$MemoryUsage2",
+          "availablePhysicalMemory": 131208724480,
+          "availableSwapSpace": 150005481472,
+          "totalPhysicalMemory": 137297784832,
+          "totalSwapSpace": 157698879488
+        },
+        "hudson.node_monitors.TemporarySpaceMonitor": {
+          "_class": "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
+          "timestamp": 1663359157296,
+          "path": "C:\\Windows\\Temp",
+          "size": 862845157376
+        },
+        "hudson.node_monitors.DiskSpaceMonitor": {
+          "_class": "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
+          "timestamp": 1663359157297,
+          "path": "C:\\Users\\svc-blsm-hostlease",
+          "size": 862845157376
+        },
+        "hudson.node_monitors.ArchitectureMonitor": "Windows Server 2019 (amd64)",
+        "hudson.node_monitors.ResponseTimeMonitor": {
+          "_class": "hudson.node_monitors.ResponseTimeMonitor$Data",
+          "timestamp": 1663359157295,
+          "average": 6
+        },
+        "hudson.node_monitors.ClockMonitor": {
+          "_class": "hudson.util.ClockDifference",
+          "diff": 0
+        }
+      },
+      "numExecutors": 1,
+      "offline": false,
+      "offlineCause": null,
+      "offlineCauseReason": "",
+      "oneOffExecutors": [ ],
+      "temporarilyOffline": false,
+      "absoluteRemotePath": "C:\\Users\\svc-blsm-hostlease\\."
+    },
+    {
+      "_class": "hudson.slaves.SlaveComputer",
+      "actions": [
+        {
+          "_class": "hudson.plugins.jobConfigHistory.ComputerConfigHistoryAction"
+        },
+        { }
+      ],
+      "assignedLabels": [
+        {
+          "name": "Tesla_T4_aarch64sbsa"
+        },
+        {
+          "name": "linux_arm"
+        },
+        {
+          "name": "mtjade-blossom07.nvidia.com-bbe73df2"
+        },
+        {
+          "name": "swarm"
+        }
+      ],
+      "description": "Swarm agent from 10.233.121.70",
+      "displayName": "mtjade-blossom07.nvidia.com-bbe73df2",
+      "executors": [
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { }
+      ],
+      "icon": "computer.png",
+      "iconClassName": "icon-computer",
+      "idle": true,
+      "jnlpAgent": true,
+      "launchSupported": false,
+      "loadStatistics": {
+        "_class": "hudson.model.Label$1"
+      },
+      "manualLaunchAllowed": true,
+      "monitorData": {
+        "hudson.node_monitors.SwapSpaceMonitor": {
+          "_class": "hudson.node_monitors.SwapSpaceMonitor$MemoryUsage2",
+          "availablePhysicalMemory": 959794896896,
+          "availableSwapSpace": 2047864832,
+          "totalPhysicalMemory": 1078643552256,
+          "totalSwapSpace": 2047864832
+        },
+        "hudson.node_monitors.TemporarySpaceMonitor": {
+          "_class": "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
+          "timestamp": 1663359157563,
+          "path": "/tmp",
+          "size": 641844523008
+        },
+        "hudson.node_monitors.DiskSpaceMonitor": {
+          "_class": "hudson.node_monitors.DiskSpaceMonitorDescriptor$DiskSpace",
+          "timestamp": 1663359157563,
+          "path": "/root",
+          "size": 641844523008
+        },
+        "hudson.node_monitors.ArchitectureMonitor": "Linux (aarch64)",
+        "hudson.node_monitors.ResponseTimeMonitor": {
+          "_class": "hudson.node_monitors.ResponseTimeMonitor$Data",
+          "timestamp": 1663359157556,
+          "average": 64
+        },
+        "hudson.node_monitors.ClockMonitor": {
+          "_class": "hudson.util.ClockDifference",
+          "diff": 130
+        }
+      },
+      "numExecutors": 160,
+      "offline": false,
+      "offlineCause": null,
+      "offlineCauseReason": "",
+      "oneOffExecutors": [ ],
+      "temporarilyOffline": false,
+      "absoluteRemotePath": "/root/."
+    },
+    {
+      "_class": "org.csanchez.jenkins.plugins.kubernetes.KubernetesComputer",
+      "actions": [
+        {
+          "_class": "hudson.plugins.jobConfigHistory.ComputerConfigHistoryAction"
+        },
+        { }
+      ],
+      "assignedLabels": [ ],
+      "description": "",
+      "displayName": "myelin-auto-toplevel-2073-s0vph-mqpl9-c3mw7",
+      "executors": [
+        { }
+      ],
+      "icon": "computer-x.png",
+      "iconClassName": "icon-computer-x",
+      "idle": false,
+      "jnlpAgent": true,
+      "launchSupported": false,
+      "loadStatistics": {
+        "_class": "hudson.model.Label$1"
+      },
+      "manualLaunchAllowed": true,
+      "monitorData": {
+        "hudson.node_monitors.SwapSpaceMonitor": null,
+        "hudson.node_monitors.TemporarySpaceMonitor": null,
+        "hudson.node_monitors.DiskSpaceMonitor": null,
+        "hudson.node_monitors.ArchitectureMonitor": null,
+        "hudson.node_monitors.ResponseTimeMonitor": null,
+        "hudson.node_monitors.ClockMonitor": null
+      },
+      "numExecutors": 0,
+      "offline": true,
+      "offlineCause": {
+        "_class": "hudson.slaves.OfflineCause$ChannelTermination"
+      },
+      "offlineCauseReason": "Connection was broken: java.nio.channels.ClosedChannelException\n\tat org.jenkinsci.remoting.protocol.impl.ChannelApplicationLayer.onReadClosed(ChannelApplicationLayer.java:238)\n\tat org.jenkinsci.remoting.protocol.ApplicationLayer.onRecvClosed(ApplicationLayer.java:221)\n\tat org.jenkinsci.remoting.protocol.ProtocolStack$Ptr.onRecvClosed(ProtocolStack.java:825)\n\tat org.jenkinsci.remoting.protocol.FilterLayer.onRecvClosed(FilterLayer.java:288)\n\tat org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.onRecvClosed(SSLEngineFilterLayer.java:179)\n\tat org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.switchToNoSecure(SSLEngineFilterLayer.java:281)\n\tat org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.processWrite(SSLEngineFilterLayer.java:501)\n\tat org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.processQueuedWrites(SSLEngineFilterLayer.java:246)\n\tat org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.doSend(SSLEngineFilterLayer.java:198)\n\tat org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.doCloseSend(SSLEngineFilterLayer.java:211)\n\tat org.jenkinsci.remoting.protocol.ProtocolStack$Ptr.doCloseSend(ProtocolStack.java:793)\n\tat org.jenkinsci.remoting.protocol.ApplicationLayer.doCloseWrite(ApplicationLayer.java:172)\n\tat org.jenkinsci.remoting.protocol.impl.ChannelApplicationLayer$ByteBufferCommandTransport.closeWrite(ChannelApplicationLayer.java:340)\n\tat hudson.remoting.Channel.close(Channel.java:1501)\n\tat hudson.remoting.Channel.close(Channel.java:1454)\n\tat hudson.slaves.SlaveComputer.closeChannel(SlaveComputer.java:894)\n\tat hudson.slaves.SlaveComputer.access$100(SlaveComputer.java:108)\n\tat hudson.slaves.SlaveComputer$2.run(SlaveComputer.java:774)\n\tat jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)\n\tat jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)\n\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:829)\n",
+      "oneOffExecutors": [ ],
+      "temporarilyOffline": false,
+      "absoluteRemotePath": null,
+      "containers": [ ],
+      "podEvents": [ ]
+    },
+    {
+      "_class": "org.csanchez.jenkins.plugins.kubernetes.KubernetesComputer",
+      "actions": [
+        {
+          "_class": "hudson.plugins.jobConfigHistory.ComputerConfigHistoryAction"
+        },
+        { }
+      ],
+      "assignedLabels": [ ],
+      "description": "",
+      "displayName": "myelin-auto-toplevel-2074-4crt8-xtdqc-8xlbr",
+      "executors": [
+        { }
+      ],
+      "icon": "computer-x.png",
+      "iconClassName": "icon-computer-x",
+      "idle": false,
+      "jnlpAgent": true,
+      "launchSupported": false,
+      "loadStatistics": {
+        "_class": "hudson.model.Label$1"
+      },
+      "manualLaunchAllowed": true,
+      "monitorData": {
+        "hudson.node_monitors.SwapSpaceMonitor": null,
+        "hudson.node_monitors.TemporarySpaceMonitor": null,
+        "hudson.node_monitors.DiskSpaceMonitor": null,
+        "hudson.node_monitors.ArchitectureMonitor": null,
+        "hudson.node_monitors.ResponseTimeMonitor": null,
+        "hudson.node_monitors.ClockMonitor": null
+      },
+      "numExecutors": 0,
+      "offline": true,
+      "offlineCause": {
+        "_class": "hudson.slaves.OfflineCause$ChannelTermination"
+      },
+      "offlineCauseReason": "Connection was broken: java.nio.channels.ClosedChannelException\n\tat org.jenkinsci.remoting.protocol.impl.ChannelApplicationLayer.onReadClosed(ChannelApplicationLayer.java:238)\n\tat org.jenkinsci.remoting.protocol.ApplicationLayer.onRecvClosed(ApplicationLayer.java:221)\n\tat org.jenkinsci.remoting.protocol.ProtocolStack$Ptr.onRecvClosed(ProtocolStack.java:825)\n\tat org.jenkinsci.remoting.protocol.FilterLayer.onRecvClosed(FilterLayer.java:288)\n\tat org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.onRecvClosed(SSLEngineFilterLayer.java:179)\n\tat org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.switchToNoSecure(SSLEngineFilterLayer.java:281)\n\tat org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.processWrite(SSLEngineFilterLayer.java:501)\n\tat org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.processQueuedWrites(SSLEngineFilterLayer.java:246)\n\tat org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.doSend(SSLEngineFilterLayer.java:198)\n\tat org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.doCloseSend(SSLEngineFilterLayer.java:211)\n\tat org.jenkinsci.remoting.protocol.ProtocolStack$Ptr.doCloseSend(ProtocolStack.java:793)\n\tat org.jenkinsci.remoting.protocol.ApplicationLayer.doCloseWrite(ApplicationLayer.java:172)\n\tat org.jenkinsci.remoting.protocol.impl.ChannelApplicationLayer$ByteBufferCommandTransport.closeWrite(ChannelApplicationLayer.java:340)\n\tat hudson.remoting.Channel.close(Channel.java:1501)\n\tat hudson.remoting.Channel.close(Channel.java:1454)\n\tat hudson.slaves.SlaveComputer.closeChannel(SlaveComputer.java:894)\n\tat hudson.slaves.SlaveComputer.access$100(SlaveComputer.java:108)\n\tat hudson.slaves.SlaveComputer$2.run(SlaveComputer.java:774)\n\tat jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)\n\tat jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)\n\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:829)\n",
+      "oneOffExecutors": [ ],
+      "temporarilyOffline": false,
+      "absoluteRemotePath": null,
+      "containers": [ ],
+      "podEvents": [ ]
+    },
+    {
+      "_class": "org.csanchez.jenkins.plugins.kubernetes.KubernetesComputer",
+      "actions": [
+        {
+          "_class": "hudson.plugins.jobConfigHistory.ComputerConfigHistoryAction"
+        },
+        { }
+      ],
+      "assignedLabels": [ ],
+      "description": "",
+      "displayName": "myelin-virtual-toplevel-4737-1rhxt-1m7xp-pjt1w",
+      "executors": [
+        { }
+      ],
+      "icon": "computer-x.png",
+      "iconClassName": "icon-computer-x",
+      "idle": false,
+      "jnlpAgent": true,
+      "launchSupported": false,
+      "loadStatistics": {
+        "_class": "hudson.model.Label$1"
+      },
+      "manualLaunchAllowed": true,
+      "monitorData": {
+        "hudson.node_monitors.SwapSpaceMonitor": null,
+        "hudson.node_monitors.TemporarySpaceMonitor": null,
+        "hudson.node_monitors.DiskSpaceMonitor": null,
+        "hudson.node_monitors.ArchitectureMonitor": null,
+        "hudson.node_monitors.ResponseTimeMonitor": null,
+        "hudson.node_monitors.ClockMonitor": null
+      },
+      "numExecutors": 0,
+      "offline": true,
+      "offlineCause": {
+        "_class": "hudson.slaves.OfflineCause$SimpleOfflineCause"
+      },
+      "offlineCauseReason": "Node is being removed",
+      "oneOffExecutors": [ ],
+      "temporarilyOffline": false,
+      "absoluteRemotePath": null,
+      "containers": [ ],
+      "podEvents": [ ]
+    },
+    {
+      "_class": "org.csanchez.jenkins.plugins.kubernetes.KubernetesComputer",
+      "actions": [
+        {
+          "_class": "hudson.plugins.jobConfigHistory.ComputerConfigHistoryAction"
+        },
+        { }
+      ],
+      "assignedLabels": [ ],
+      "description": "",
+      "displayName": "myelin-virtual-toplevel-4742-8j7g7-295cv-hv6tx",
+      "executors": [
+        { }
+      ],
+      "icon": "computer-x.png",
+      "iconClassName": "icon-computer-x",
+      "idle": false,
+      "jnlpAgent": true,
+      "launchSupported": false,
+      "loadStatistics": {
+        "_class": "hudson.model.Label$1"
+      },
+      "manualLaunchAllowed": true,
+      "monitorData": {
+        "hudson.node_monitors.SwapSpaceMonitor": null,
+        "hudson.node_monitors.TemporarySpaceMonitor": null,
+        "hudson.node_monitors.DiskSpaceMonitor": null,
+        "hudson.node_monitors.ArchitectureMonitor": null,
+        "hudson.node_monitors.ResponseTimeMonitor": null,
+        "hudson.node_monitors.ClockMonitor": null
+      },
+      "numExecutors": 0,
+      "offline": true,
+      "offlineCause": {
+        "_class": "hudson.slaves.OfflineCause$ChannelTermination"
+      },
+      "offlineCauseReason": "Connection was broken: java.nio.channels.ClosedChannelException\n\tat org.jenkinsci.remoting.protocol.impl.ChannelApplicationLayer.onReadClosed(ChannelApplicationLayer.java:238)\n\tat org.jenkinsci.remoting.protocol.ApplicationLayer.onRecvClosed(ApplicationLayer.java:221)\n\tat org.jenkinsci.remoting.protocol.ProtocolStack$Ptr.onRecvClosed(ProtocolStack.java:825)\n\tat org.jenkinsci.remoting.protocol.FilterLayer.onRecvClosed(FilterLayer.java:288)\n\tat org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.onRecvClosed(SSLEngineFilterLayer.java:179)\n\tat org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.switchToNoSecure(SSLEngineFilterLayer.java:281)\n\tat org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.processWrite(SSLEngineFilterLayer.java:501)\n\tat org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.processQueuedWrites(SSLEngineFilterLayer.java:246)\n\tat org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.doSend(SSLEngineFilterLayer.java:198)\n\tat org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.doCloseSend(SSLEngineFilterLayer.java:211)\n\tat org.jenkinsci.remoting.protocol.ProtocolStack$Ptr.doCloseSend(ProtocolStack.java:793)\n\tat org.jenkinsci.remoting.protocol.ApplicationLayer.doCloseWrite(ApplicationLayer.java:172)\n\tat org.jenkinsci.remoting.protocol.impl.ChannelApplicationLayer$ByteBufferCommandTransport.closeWrite(ChannelApplicationLayer.java:340)\n\tat hudson.remoting.Channel.close(Channel.java:1501)\n\tat hudson.remoting.Channel.close(Channel.java:1454)\n\tat hudson.slaves.SlaveComputer.closeChannel(SlaveComputer.java:894)\n\tat hudson.slaves.SlaveComputer.access$100(SlaveComputer.java:108)\n\tat hudson.slaves.SlaveComputer$2.run(SlaveComputer.java:774)\n\tat jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)\n\tat jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)\n\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:829)\n",
+      "oneOffExecutors": [ ],
+      "temporarilyOffline": false,
+      "absoluteRemotePath": null,
+      "containers": [ ],
+      "podEvents": [ ]
+    },
+    {
+      "_class": "org.csanchez.jenkins.plugins.kubernetes.KubernetesComputer",
+      "actions": [
+        {
+          "_class": "hudson.plugins.jobConfigHistory.ComputerConfigHistoryAction"
+        },
+        { }
+      ],
+      "assignedLabels": [ ],
+      "description": "",
+      "displayName": "myelin-virtual-toplevel-4744-5r224-hjsvc-0sfhf",
+      "executors": [
+        { }
+      ],
+      "icon": "computer-x.png",
+      "iconClassName": "icon-computer-x",
+      "idle": false,
+      "jnlpAgent": true,
+      "launchSupported": false,
+      "loadStatistics": {
+        "_class": "hudson.model.Label$1"
+      },
+      "manualLaunchAllowed": true,
+      "monitorData": {
+        "hudson.node_monitors.SwapSpaceMonitor": null,
+        "hudson.node_monitors.TemporarySpaceMonitor": null,
+        "hudson.node_monitors.DiskSpaceMonitor": null,
+        "hudson.node_monitors.ArchitectureMonitor": null,
+        "hudson.node_monitors.ResponseTimeMonitor": null,
+        "hudson.node_monitors.ClockMonitor": null
+      },
+      "numExecutors": 0,
+      "offline": true,
+      "offlineCause": {
+        "_class": "hudson.slaves.OfflineCause$ChannelTermination"
+      },
+      "offlineCauseReason": "Connection was broken: java.nio.channels.ClosedChannelException\n\tat org.jenkinsci.remoting.protocol.impl.ChannelApplicationLayer.onReadClosed(ChannelApplicationLayer.java:238)\n\tat org.jenkinsci.remoting.protocol.ApplicationLayer.onRecvClosed(ApplicationLayer.java:221)\n\tat org.jenkinsci.remoting.protocol.ProtocolStack$Ptr.onRecvClosed(ProtocolStack.java:825)\n\tat org.jenkinsci.remoting.protocol.FilterLayer.onRecvClosed(FilterLayer.java:288)\n\tat org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.onRecvClosed(SSLEngineFilterLayer.java:179)\n\tat org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.switchToNoSecure(SSLEngineFilterLayer.java:281)\n\tat org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.processWrite(SSLEngineFilterLayer.java:501)\n\tat org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.processQueuedWrites(SSLEngineFilterLayer.java:246)\n\tat org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.doSend(SSLEngineFilterLayer.java:198)\n\tat org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.doCloseSend(SSLEngineFilterLayer.java:211)\n\tat org.jenkinsci.remoting.protocol.ProtocolStack$Ptr.doCloseSend(ProtocolStack.java:793)\n\tat org.jenkinsci.remoting.protocol.ApplicationLayer.doCloseWrite(ApplicationLayer.java:172)\n\tat org.jenkinsci.remoting.protocol.impl.ChannelApplicationLayer$ByteBufferCommandTransport.closeWrite(ChannelApplicationLayer.java:340)\n\tat hudson.remoting.Channel.close(Channel.java:1501)\n\tat hudson.remoting.Channel.close(Channel.java:1454)\n\tat hudson.slaves.SlaveComputer.closeChannel(SlaveComputer.java:894)\n\tat hudson.slaves.SlaveComputer.access$100(SlaveComputer.java:108)\n\tat hudson.slaves.SlaveComputer$2.run(SlaveComputer.java:774)\n\tat jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)\n\tat jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)\n\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:829)\n",
+      "oneOffExecutors": [ ],
+      "temporarilyOffline": false,
+      "absoluteRemotePath": null,
+      "containers": [ ],
+      "podEvents": [ ]
+    },
+    {
+      "_class": "hudson.slaves.SlaveComputer",
+      "actions": [
+        {
+          "_class": "hudson.plugins.jobConfigHistory.ComputerConfigHistoryAction"
+        },
+        { }
+      ],
+      "assignedLabels": [
+        {
+          "name": "A100-PCIE-40GB"
+        },
+        {
+          "name": "blossom_windows_static"
+        },
+        {
+          "name": "blossom_windows_static_GPU"
+        },
+        {
+          "name": "swarm"
+        },
+        {
+          "name": "v2202.scl-ca.nvidia.com-87c01283"
+        }
+      ],
+      "description": "Swarm agent from 10.233.116.0",
+      "displayName": "v2202.scl-ca.nvidia.com-87c01283",
+      "executors": [
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { },
+        { }
+      ],
+      "icon": "computer-x.png",
+      "iconClassName": "icon-computer-x",
+      "idle": true,
+      "jnlpAgent": true,
+      "launchSupported": false,
+      "loadStatistics": {
+        "_class": "hudson.model.Label$1"
+      },
+      "manualLaunchAllowed": true,
+      "monitorData": {
+        "hudson.node_monitors.SwapSpaceMonitor": null,
+        "hudson.node_monitors.TemporarySpaceMonitor": null,
+        "hudson.node_monitors.DiskSpaceMonitor": null,
+        "hudson.node_monitors.ArchitectureMonitor": null,
+        "hudson.node_monitors.ResponseTimeMonitor": null,
+        "hudson.node_monitors.ClockMonitor": null
+      },
+      "numExecutors": 16,
+      "offline": true,
+      "offlineCause": {
+        "_class": "hudson.slaves.OfflineCause$LaunchFailed"
+      },
+      "offlineCauseReason": "This agent is offline because Jenkins failed to launch the agent process on it.",
+      "oneOffExecutors": [ ],
+      "temporarilyOffline": false,
+      "absoluteRemotePath": null
+    }
+  ],
+  "displayName": "Nodes",
+  "totalExecutors": 186
+}
