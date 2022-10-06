@@ -1,13 +1,16 @@
-import json
-import os
-from json import JSONDecodeError
 import requests
-from flask import Flask, render_template, redirect, url_for, request, flash, jsonify
+from flask import Flask, render_template, request, jsonify
 from werkzeug.utils import secure_filename
 
-app = Flask(__name__)
+# configuration
+DEBUG = True
 
-app.config["UPLOAD_FOLDER"] = "static/"
+# instantiate the app
+app = Flask(__name__)
+app.config.from_object(__name__)
+
+# enable CORS
+# CORS(app, resources={r'/*': {'origins': '*'}})
 
 @app.route('/')
 def login():  # put application's code here
